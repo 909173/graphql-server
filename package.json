@@ -1,0 +1,17 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "graph-ql-server",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon node index" 
+  },
+  "author": "suehiro",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.5.1",
+    "nodemon": "^2.0.12",
+    "prisma-client-lib": "^1.34.12"
+  }
+}
